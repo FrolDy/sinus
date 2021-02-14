@@ -22,8 +22,8 @@ int main()
 	{
 		
 		buffer[i] = (int)(amplitude * sin((float)(2 * 3.14 * i * freq_Hz / S_RATE)));
-		test << buffer[i];
-		cout << buffer[i] << endl;
+		test <<hex<< buffer[i];
+		cout <<hex<< buffer[i] << endl;
 	}
 	
 	return 0;
