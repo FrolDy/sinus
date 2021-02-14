@@ -1,3 +1,6 @@
+// CMakeProject1.cpp: определяет точку входа для приложения.
+//
+
 #include "CMakeProject1.h"
 #include <fstream>
 #define S_RATE  (44100)
