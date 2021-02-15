@@ -19,7 +19,7 @@ int main()
 	float freq_Hz = 100;
 	float phase = 0;
 	ofstream test;
-	test.open("D:\\test.pcm");
+	test.open("test.pcm");
 	for (i = 0; i < BUF_SIZE; i++)
 	{
 		
