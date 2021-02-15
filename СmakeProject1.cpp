@@ -3,6 +3,8 @@
 
 #include "CMakeProject1.h"
 #include <fstream>
+#include <iostream>
+#include <cmath>
 #define S_RATE  (8000)
 #define BUF_SIZE (S_RATE*2)
 using namespace std;
